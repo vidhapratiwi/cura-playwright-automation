@@ -1,0 +1,114 @@
+{
+  "config": {
+    "configFile": "D:\\bootcamp\\cura-playwright-automation\\playwright.config.js",
+    "rootDir": "D:/bootcamp/cura-playwright-automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report/json/report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "report/html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/bootcamp/cura-playwright-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "D:/bootcamp/cura-playwright-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cura-pom.spec.js",
+      "file": "cura-pom.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test homepage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 11432,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T13:32:30.560Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-fb2544e94b2da53bfcc2",
+          "file": "cura-pom.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-12-21T13:32:22.895Z",
+    "duration": 21885.724999999977,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
