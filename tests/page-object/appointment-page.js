@@ -25,6 +25,11 @@ export class AppointmentPage {
 
         this.confirmationTitle = page.getByRole('heading', { name: 'Appointment Confirmation' })
         this.confirmationSummary = page.locator('[id="summary"]')
+
+        this.goToHomePageButton = page.locator('a[href="https://katalon-demo-cura.herokuapp.com/"]')
+
+        this.sidebarMenu = page.locator('[id="menu-toggle"]')
+        this.sidebarHistory = page.getByRole('link', { name: 'History' })
     }
 
     async validateAppointmentPage(){
@@ -149,7 +154,29 @@ export class AppointmentPage {
 
     //----------------------End field--------------------
 
+    async validateDateFieldValidationMessage(expectedMessage){
+        const validationMessage = await this.dateField.evaluate(el => el.validationMessage)
+        console.log('Warning message:', validationMessage)
+        expect(validationMessage).toBe(expectedMessage)
+    }
 
+    async validateNoAppointmentCreated(){
+        if (await this.dateField.isVisible()) {
+            const warningMessage = await this.dateField.evaluate(el => el.validationMessage || null);
+            console.log('Warning message:', warningMessage);
+            expect(warningMessage).toBe('You cannot select a past date.');
+        } else {
+            throw new Error('Date field is not visible!');
+        }
+    }   
 
+    async clickGoToHomepageButton(){
+        await this.goToHomePageButton.click()
+    }
+
+    async goToHistoryPage(){
+        await this.sidebarMenu.click()
+        await this.sidebarHistory.click()
+    }
 
 }

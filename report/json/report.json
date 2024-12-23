@@ -68,7 +68,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "TC 26 - Make an appointment with all appointment fields are filled",
+          "title": "TC 01 - Successfully Login",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,7 +82,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 13050,
+                  "duration": 9160,
                   "errors": [],
                   "stdout": [
                     {
@@ -94,7 +94,1164 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-12-23T10:24:09.721Z",
+                  "startTime": "2024-12-23T17:03:05.949Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-a3afe0f82a098817e60d",
+          "file": "cura-pom.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "TC 02 - Successfully Login - Sidebar Menu",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 8636,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:03:16.274Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-91df5227cda966c89493",
+          "file": "cura-pom.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "TC 03 - Failed login with invalid username",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 8090,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:03:24.948Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-e13db5afb66ad28e21c3",
+          "file": "cura-pom.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "TC 04 - Failed login with invalid password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 7133,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:03:33.063Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-f3a411501233ff38cf22",
+          "file": "cura-pom.spec.js",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "TC 05 - Failed login with empty username",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6014,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:03:40.220Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-a6e66d622ef1e1bbb7c0",
+          "file": "cura-pom.spec.js",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "TC 06 - Failed login with empty password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 12807,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:03:46.256Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-94cf226a9a552a90a2f8",
+          "file": "cura-pom.spec.js",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "TC 07 - Failed login with empty credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6474,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:03:59.084Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-9151ed40dab70f30cd4e",
+          "file": "cura-pom.spec.js",
+          "line": 60,
+          "column": 1
+        },
+        {
+          "title": "TC 08 - Successful login with username case sensitivity (uppercase)",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 11416,
+                  "error": {
+                    "message": "ReferenceError: appointmentPage is not defined",
+                    "stack": "ReferenceError: appointmentPage is not defined\n    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:76:5",
+                    "location": {
+                      "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js",
+                      "column": 5,
+                      "line": 76
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 74 |\u001b[39m     \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mlogin(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mUSER_UPPER\u001b[39m\u001b[33m,\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mDEMO_PASS\u001b[39m)\n \u001b[90m 75 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 76 |\u001b[39m     \u001b[36mawait\u001b[39m appointmentPage\u001b[33m.\u001b[39mvalidateAppointmentPage()\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 77 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n \u001b[90m 79 |\u001b[39m test(\u001b[32m'TC 08 - Successful login with username case sensitivity (lowercase)'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ homePage\u001b[33m,\u001b[39m loginPage }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js",
+                        "column": 5,
+                        "line": 76
+                      },
+                      "message": "ReferenceError: appointmentPage is not defined\n\n\u001b[0m \u001b[90m 74 |\u001b[39m     \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mlogin(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mUSER_UPPER\u001b[39m\u001b[33m,\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mDEMO_PASS\u001b[39m)\n \u001b[90m 75 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 76 |\u001b[39m     \u001b[36mawait\u001b[39m appointmentPage\u001b[33m.\u001b[39mvalidateAppointmentPage()\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 77 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n \u001b[90m 79 |\u001b[39m test(\u001b[32m'TC 08 - Successful login with username case sensitivity (lowercase)'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ homePage\u001b[33m,\u001b[39m loginPage }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:76:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:04:05.579Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js",
+                    "column": 5,
+                    "line": 76
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-b71f255f976f17d56ef5",
+          "file": "cura-pom.spec.js",
+          "line": 69,
+          "column": 1
+        },
+        {
+          "title": "TC 08 - Successful login with username case sensitivity (lowercase)",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 13109,
+                  "error": {
+                    "message": "ReferenceError: appointmentPage is not defined",
+                    "stack": "ReferenceError: appointmentPage is not defined\n    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:86:5",
+                    "location": {
+                      "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js",
+                      "column": 5,
+                      "line": 86
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 84 |\u001b[39m     \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mlogin(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mUSER_LOWER\u001b[39m\u001b[33m,\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mDEMO_PASS\u001b[39m)\n \u001b[90m 85 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 86 |\u001b[39m     \u001b[36mawait\u001b[39m appointmentPage\u001b[33m.\u001b[39mvalidateAppointmentPage()\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 87 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 88 |\u001b[39m\n \u001b[90m 89 |\u001b[39m test(\u001b[32m'TC 09 - Failed login with password case sensitivity (uppercase)'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ homePage\u001b[33m,\u001b[39m loginPage }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js",
+                        "column": 5,
+                        "line": 86
+                      },
+                      "message": "ReferenceError: appointmentPage is not defined\n\n\u001b[0m \u001b[90m 84 |\u001b[39m     \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mlogin(process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mUSER_LOWER\u001b[39m\u001b[33m,\u001b[39m process\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mDEMO_PASS\u001b[39m)\n \u001b[90m 85 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 86 |\u001b[39m     \u001b[36mawait\u001b[39m appointmentPage\u001b[33m.\u001b[39mvalidateAppointmentPage()\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 87 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 88 |\u001b[39m\n \u001b[90m 89 |\u001b[39m test(\u001b[32m'TC 09 - Failed login with password case sensitivity (uppercase)'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ homePage\u001b[33m,\u001b[39m loginPage }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:86:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "setup test env\n"
+                    },
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:04:20.212Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js",
+                    "column": 5,
+                    "line": 86
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-20fb2aa67ce9a2331f38",
+          "file": "cura-pom.spec.js",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "TC 09 - Failed login with password case sensitivity (uppercase)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 12230,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "setup test env\n"
+                    },
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:04:37.984Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-99ceded161f974fd66da",
+          "file": "cura-pom.spec.js",
+          "line": 89,
+          "column": 1
+        },
+        {
+          "title": "TC 09 - Failed login with password case sensitivity (lowercase)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 6876,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:04:51.204Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-08203ae99e32e51aa3fb",
+          "file": "cura-pom.spec.js",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "TC 10 - Scroll to bottom and back to top of the page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 6521,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:04:58.116Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-024cdf95096afdb85f03",
+          "file": "cura-pom.spec.js",
+          "line": 107,
+          "column": 1
+        },
+        {
+          "title": "TC 11 - Verify appointment button and the form",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 6995,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:05:04.666Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-e5d380a387845e441491",
+          "file": "cura-pom.spec.js",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "TC 12 - Verify sidebar menu - before login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 10737,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:05:11.693Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-273456432c0641823fd5",
+          "file": "cura-pom.spec.js",
+          "line": 121,
+          "column": 1
+        },
+        {
+          "title": "TC 13 - Verify sidebar menu - after login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 10555,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:05:22.449Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-6090aac2d7e6cb1761b2",
+          "file": "cura-pom.spec.js",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "TC 14 - Verify sidebar menu - Home",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 9713,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:05:33.030Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-bf1f210cefa2236e6e9c",
+          "file": "cura-pom.spec.js",
+          "line": 136,
+          "column": 1
+        },
+        {
+          "title": "TC 15 - Verify sidebar menu - History",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 11734,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:05:42.766Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-32502204dc9850307d61",
+          "file": "cura-pom.spec.js",
+          "line": 146,
+          "column": 1
+        },
+        {
+          "title": "TC 16 - Verify sidebar menu - Profile",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 8019,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:05:54.526Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-5ba7a901ccad452f9c37",
+          "file": "cura-pom.spec.js",
+          "line": 157,
+          "column": 1
+        },
+        {
+          "title": "TC 17 - Verify sidebar menu - Logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 11368,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:06:02.571Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-aa962b14783a9ee79987",
+          "file": "cura-pom.spec.js",
+          "line": 168,
+          "column": 1
+        },
+        {
+          "title": "TC 18 - Verify link on footer - Email ",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "timedOut",
+                  "duration": 30440,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js",
+                        "column": 33,
+                        "line": 99
+                      },
+                      "message": "Error: browserContext.waitForEvent: Test timeout of 30000ms exceeded.\n\n\u001b[90m   at \u001b[39mpage-object\\home-page.js:99\n\n\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[36masync\u001b[39m clickEmail(){\n \u001b[90m  98 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  99 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mcontext()\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m     |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 100 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailLink\u001b[33m.\u001b[39mclick()\n \u001b[90m 101 |\u001b[39m         ])\n \u001b[90m 102 |\u001b[39m         \u001b[36mreturn\u001b[39m newPage\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at HomePage.clickEmail (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js:99:33)\u001b[22m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:181:36\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:06:13.965Z",
+                  "attachments": []
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-633a99e7539cdb15cb78",
+          "file": "cura-pom.spec.js",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "TC 19 - Verify link on footer - Facebook ",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "timedOut",
+                  "duration": 30489,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js",
+                        "column": 33,
+                        "line": 112
+                      },
+                      "message": "Error: browserContext.waitForEvent: Test timeout of 30000ms exceeded.\n\n\u001b[90m   at \u001b[39mpage-object\\home-page.js:112\n\n\u001b[0m \u001b[90m 110 |\u001b[39m     \u001b[36masync\u001b[39m clickFacebook(){\n \u001b[90m 111 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 112 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mcontext()\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m     |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 113 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfacebookLink\u001b[33m.\u001b[39mclick()\n \u001b[90m 114 |\u001b[39m         ])\n \u001b[90m 115 |\u001b[39m         \u001b[36mreturn\u001b[39m newPage\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at HomePage.clickFacebook (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js:112:33)\u001b[22m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:188:36\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "setup test env\n"
+                    },
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:06:47.511Z",
+                  "attachments": []
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-f19614765e9f23180a6c",
+          "file": "cura-pom.spec.js",
+          "line": 185,
+          "column": 1
+        },
+        {
+          "title": "TC 20 - Verify link on footer - Twitter ",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "timedOut",
+                  "duration": 30496,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js",
+                        "column": 33,
+                        "line": 125
+                      },
+                      "message": "Error: browserContext.waitForEvent: Test timeout of 30000ms exceeded.\n\n\u001b[90m   at \u001b[39mpage-object\\home-page.js:125\n\n\u001b[0m \u001b[90m 123 |\u001b[39m     \u001b[36masync\u001b[39m clickTwitter(){\n \u001b[90m 124 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 125 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mcontext()\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m     |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 126 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtwitterLink\u001b[33m.\u001b[39mclick()\n \u001b[90m 127 |\u001b[39m         ])\n \u001b[90m 128 |\u001b[39m         \u001b[36mreturn\u001b[39m newPage\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at HomePage.clickTwitter (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js:125:33)\u001b[22m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:195:36\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "setup test env\n"
+                    },
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:07:22.922Z",
+                  "attachments": []
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-1ebe051556cebc09d16b",
+          "file": "cura-pom.spec.js",
+          "line": 192,
+          "column": 1
+        },
+        {
+          "title": "TC 21 - Verify link on footer - Dribbble ",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "failed",
+                  "duration": 7229,
+                  "error": {
+                    "message": "TypeError: Cannot read properties of undefined (reading 'click')",
+                    "stack": "TypeError: Cannot read properties of undefined (reading 'click')\n    at HomePage.clickDribbble (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js:139:35)\n    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:202:36",
+                    "location": {
+                      "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js",
+                      "column": 35,
+                      "line": 139
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mpage-object\\home-page.js:139\n\n\u001b[0m \u001b[90m 137 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\n \u001b[90m 138 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mcontext()\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 139 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdribbbleLinkLink\u001b[33m.\u001b[39mclick()\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 140 |\u001b[39m         ])\n \u001b[90m 141 |\u001b[39m         \u001b[36mreturn\u001b[39m newPage\u001b[33m;\u001b[39m\n \u001b[90m 142 |\u001b[39m     }\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js",
+                        "column": 35,
+                        "line": 139
+                      },
+                      "message": "TypeError: Cannot read properties of undefined (reading 'click')\n\n\u001b[90m   at \u001b[39mpage-object\\home-page.js:139\n\n\u001b[0m \u001b[90m 137 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\n \u001b[90m 138 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mcontext()\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 139 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdribbbleLinkLink\u001b[33m.\u001b[39mclick()\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 140 |\u001b[39m         ])\n \u001b[90m 141 |\u001b[39m         \u001b[36mreturn\u001b[39m newPage\u001b[33m;\u001b[39m\n \u001b[90m 142 |\u001b[39m     }\u001b[0m\n\u001b[2m    at HomePage.clickDribbble (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js:139:35)\u001b[22m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:202:36\u001b[22m"
+                    },
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js",
+                        "column": 33,
+                        "line": 138
+                      },
+                      "message": "Error: browserContext.waitForEvent: Test ended.\n\n\u001b[90m   at \u001b[39mpage-object\\home-page.js:138\n\n\u001b[0m \u001b[90m 136 |\u001b[39m     \u001b[36masync\u001b[39m clickDribbble(){\n \u001b[90m 137 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 138 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mcontext()\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m     |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 139 |\u001b[39m             \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdribbbleLinkLink\u001b[33m.\u001b[39mclick()\n \u001b[90m 140 |\u001b[39m         ])\n \u001b[90m 141 |\u001b[39m         \u001b[36mreturn\u001b[39m newPage\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at HomePage.clickDribbble (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js:138:33)\u001b[22m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:202:36\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "setup test env\n"
+                    },
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:07:57.572Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\home-page.js",
+                    "column": 35,
+                    "line": 139
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-be70e54f0729cc49cacd",
+          "file": "cura-pom.spec.js",
+          "line": 199,
+          "column": 1
+        },
+        {
+          "title": "TC 22 - \"Apply for hospital readmission\" checkbox can be selected and deselected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 10295,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "setup test env\n"
+                    },
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:08:09.112Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-7fde81e05ad982f25f24",
+          "file": "cura-pom.spec.js",
+          "line": 206,
+          "column": 1
+        },
+        {
+          "title": "TC 23 - All \"Healthcare program\" radio button can be selected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 10300,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Only one button is selected by default\n"
+                    },
+                    {
+                      "text": "Only one button is selected after selecting ${program.name}\n"
+                    },
+                    {
+                      "text": "Only one button is selected after selecting ${program.name}\n"
+                    },
+                    {
+                      "text": "Only one button is selected after selecting ${program.name}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:08:20.581Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-063967705135779c6467",
+          "file": "cura-pom.spec.js",
+          "line": 214,
+          "column": 1
+        },
+        {
+          "title": "TC 24 - All \"Facility\" dropdown menu can be selected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 11222,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Selected: Tokyo CURA Healthcare Center\n"
+                    },
+                    {
+                      "text": "Selected: Hongkong CURA Healthcare Center\n"
+                    },
+                    {
+                      "text": "Selected: Seoul CURA Healthcare Center\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:08:30.930Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-cf36c5e29d3a2f19ebbd",
+          "file": "cura-pom.spec.js",
+          "line": 222,
+          "column": 1
+        },
+        {
+          "title": "TC 25 - Select visit date from date picker",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 11055,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:08:42.203Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-ace5bb511694a3138a3a",
+          "file": "cura-pom.spec.js",
+          "line": 230,
+          "column": 1
+        },
+        {
+          "title": "TC 26 - Make an appointment with all appointment fields are filled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 8022,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:08:53.302Z",
                   "attachments": []
                 }
               ],
@@ -105,17 +1262,305 @@
           "file": "cura-pom.spec.js",
           "line": 239,
           "column": 1
+        },
+        {
+          "title": "TC 27 - Make an appointment but only required field is filled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 8532,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:09:01.357Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-fc06d3fdb33b2b362314",
+          "file": "cura-pom.spec.js",
+          "line": 256,
+          "column": 1
+        },
+        {
+          "title": "TC 28 - Make an appointment with fields are not filled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 8575,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Warning message: Please fill out this field.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:09:09.916Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-fbc2b169e75187b1e9ab",
+          "file": "cura-pom.spec.js",
+          "line": 268,
+          "column": 1
+        },
+        {
+          "title": "TC 29 - Failed make an appointment - select a past visit date",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "failed",
+                  "duration": 12364,
+                  "error": {
+                    "message": "Error: Date field is not visible!",
+                    "stack": "Error: Date field is not visible!\n    at AppointmentPage.validateNoAppointmentCreated (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\appointment-page.js:169:19)\n    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:285:5",
+                    "location": {
+                      "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\appointment-page.js",
+                      "column": 19,
+                      "line": 169
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mpage-object\\appointment-page.js:169\n\n\u001b[0m \u001b[90m 167 |\u001b[39m             expect(warningMessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m'You cannot select a past date.'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 168 |\u001b[39m         } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 169 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Date field is not visible!'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 170 |\u001b[39m         }\n \u001b[90m 171 |\u001b[39m     }   \n \u001b[90m 172 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\appointment-page.js",
+                        "column": 19,
+                        "line": 169
+                      },
+                      "message": "Error: Date field is not visible!\n\n\u001b[90m   at \u001b[39mpage-object\\appointment-page.js:169\n\n\u001b[0m \u001b[90m 167 |\u001b[39m             expect(warningMessage)\u001b[33m.\u001b[39mtoBe(\u001b[32m'You cannot select a past date.'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 168 |\u001b[39m         } \u001b[36melse\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 169 |\u001b[39m             \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m'Date field is not visible!'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 170 |\u001b[39m         }\n \u001b[90m 171 |\u001b[39m     }   \n \u001b[90m 172 |\u001b[39m\u001b[0m\n\u001b[2m    at AppointmentPage.validateNoAppointmentCreated (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\appointment-page.js:169:19)\u001b[22m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:285:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:09:18.516Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\appointment-page.js",
+                    "column": 19,
+                    "line": 169
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-dae0be01a9245c62244b",
+          "file": "cura-pom.spec.js",
+          "line": 277,
+          "column": 1
+        },
+        {
+          "title": "TC 30 - Go to homepage button working properly",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 12840,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "setup test env\n"
+                    },
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:09:34.072Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-9e479a9430c33bfea3e7",
+          "file": "cura-pom.spec.js",
+          "line": 288,
+          "column": 1
+        },
+        {
+          "title": "TC 31 - Validate appointment is recorded in the history page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 10411,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:09:47.894Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-fb2d073d34376a5851c2",
+          "file": "cura-pom.spec.js",
+          "line": 302,
+          "column": 1
+        },
+        {
+          "title": "TC 32 - Validate appointment is not lost after logout and login",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "failed",
+                  "duration": 20681,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('.panel.panel-info')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.panel.panel-info')\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('.panel.panel-info')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.panel.panel-info')\u001b[22m\n\n    at HistoryPage.validateAppointentIsRecorded (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\history-page.js:37:45)\n    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:338:23",
+                    "matcherResult": {
+                      "message": "\u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('.panel.panel-info')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.panel.panel-info')\u001b[22m\n",
+                      "pass": false,
+                      "actual": "hidden",
+                      "name": "toBeVisible",
+                      "expected": "visible",
+                      "log": [
+                        "  - expect.toBeVisible with timeout 5000ms",
+                        "  - waiting for locator('.panel.panel-info')"
+                      ],
+                      "timeout": 5000
+                    },
+                    "location": {
+                      "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\history-page.js",
+                      "column": 45,
+                      "line": 37
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mpage-object\\history-page.js:37\n\n\u001b[0m \u001b[90m 35 |\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36masync\u001b[39m validateAppointentIsRecorded(){\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhistoryPanelInfo)\u001b[33m.\u001b[39mtoBeVisible()\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfacilitySelected)\u001b[33m.\u001b[39mtoBeVisible()\n \u001b[90m 39 |\u001b[39m     }\n \u001b[90m 40 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\history-page.js",
+                        "column": 45,
+                        "line": 37
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('.panel.panel-info')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.panel.panel-info')\u001b[22m\n\n\n\u001b[90m   at \u001b[39mpage-object\\history-page.js:37\n\n\u001b[0m \u001b[90m 35 |\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36masync\u001b[39m validateAppointentIsRecorded(){\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhistoryPanelInfo)\u001b[33m.\u001b[39mtoBeVisible()\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfacilitySelected)\u001b[33m.\u001b[39mtoBeVisible()\n \u001b[90m 39 |\u001b[39m     }\n \u001b[90m 40 |\u001b[39m\u001b[0m\n\u001b[2m    at HistoryPage.validateAppointentIsRecorded (D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\history-page.js:37:45)\u001b[22m\n\u001b[2m    at D:\\bootcamp\\cura-playwright-automation\\tests\\cura-pom.spec.js:338:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "clean up\n"
+                    },
+                    {
+                      "text": "Test failed, perform screenshot\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-23T17:09:58.345Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "D:\\bootcamp\\cura-playwright-automation\\tests\\page-object\\history-page.js",
+                    "column": 45,
+                    "line": 37
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2aa4c8636c067b9a6a71-fba8b2c5a2de0c3627d2",
+          "file": "cura-pom.spec.js",
+          "line": 317,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-12-23T10:23:58.809Z",
-    "duration": 24705.191,
-    "expected": 1,
+    "startTime": "2024-12-23T17:03:03.409Z",
+    "duration": 440203.886,
+    "expected": 26,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 8,
     "flaky": 0
   }
 }

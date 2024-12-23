@@ -151,7 +151,7 @@ test('TC 15 - Verify sidebar menu - History', async ({ homePage, loginPage, hist
     await homePage.validateSidebarAfterLogin()
     await homePage.clickSidebarHistory()
 
-    await historyPage.validateHistoryPage()
+    await historyPage.validateHistoryPageNoAppointment()
 });
 
 test('TC 16 - Verify sidebar menu - Profile', async ({ homePage, loginPage, profilePage }) => {
@@ -253,6 +253,94 @@ test('TC 26 - Make an appointment with all appointment fields are filled', async
     await appointmentPage.showAppointmentConfirmation()
 });
 
+test('TC 27 - Make an appointment but only required field is filled', async ({ loginPage, homePage, appointmentPage }) => {
+    await homePage.clickAppointmentButton()
+    await loginPage.login(process.env.DEMO_USER, process.env.DEMO_PASS)
+
+    await appointmentPage.validateAppointmentPage()
+    await appointmentPage.selectDate('13', 'December', '2025')
+    await appointmentPage.validateSelectedDate('13/12/2025')
+    await appointmentPage.clickBookingAppointmentButton()
+    await appointmentPage.showAppointmentConfirmation()
+});
+
+
+test('TC 28 - Make an appointment with fields are not filled', async ({ loginPage, homePage, appointmentPage }) => {
+    await homePage.clickAppointmentButton()
+    await loginPage.login(process.env.DEMO_USER, process.env.DEMO_PASS)
+
+    await appointmentPage.validateAppointmentPage()
+    await appointmentPage.clickBookingAppointmentButton()
+    await appointmentPage.validateDateFieldValidationMessage("Please fill out this field.")
+});
+
+test('TC 29 - Failed make an appointment - select a past visit date', async ({ loginPage, homePage, appointmentPage }) => {
+    await homePage.clickAppointmentButton()
+    await loginPage.login(process.env.DEMO_USER, process.env.DEMO_PASS)
+
+    await appointmentPage.validateAppointmentPage()
+    await appointmentPage.selectDate('13', 'December', '2024')
+    await appointmentPage.validateSelectedDate('13/12/2024')
+    await appointmentPage.clickBookingAppointmentButton()
+    await appointmentPage.validateNoAppointmentCreated()
+});
+
+test('TC 30 - Go to homepage button working properly', async ({ homePage, loginPage, appointmentPage }) => {
+    await homePage.clickAppointmentButton()
+    await loginPage.login(process.env.DEMO_USER, process.env.DEMO_PASS)
+
+    await appointmentPage.validateAppointmentPage()
+    await appointmentPage.selectDate('13', 'December', '2025')
+    await appointmentPage.validateSelectedDate('13/12/2025')
+    await appointmentPage.clickBookingAppointmentButton()
+    await appointmentPage.showAppointmentConfirmation()
+    await appointmentPage.clickGoToHomepageButton()
+
+    await homePage.validateHomePage()
+});
+
+test('TC 31 - Validate appointment is recorded in the history page', async ({ homePage, loginPage, appointmentPage, historyPage }) => {
+    await homePage.clickAppointmentButton()
+    await loginPage.login(process.env.DEMO_USER, process.env.DEMO_PASS)
+
+    await appointmentPage.validateAppointmentPage()
+    await appointmentPage.selectDate('13', 'December', '2025')
+    await appointmentPage.validateSelectedDate('13/12/2025')
+    await appointmentPage.clickBookingAppointmentButton()
+    await appointmentPage.showAppointmentConfirmation()
+    await appointmentPage.goToHistoryPage()
+
+    await historyPage.validateHistoryPage()
+    await historyPage.validateAppointentIsRecorded()
+});
+
+test('TC 32 - Validate appointment is not lost after logout and login', async ({ homePage, loginPage, appointmentPage, historyPage }) => {
+    await homePage.clickAppointmentButton()
+    await loginPage.login(process.env.DEMO_USER, process.env.DEMO_PASS)
+
+    await appointmentPage.validateAppointmentPage()
+    await appointmentPage.selectDate('13', 'December', '2025')
+    await appointmentPage.validateSelectedDate('13/12/2025')
+    await appointmentPage.clickBookingAppointmentButton()
+    await appointmentPage.showAppointmentConfirmation()
+    await appointmentPage.goToHistoryPage()
+
+    await historyPage.validateHistoryPage()
+    await historyPage.validateAppointentIsRecorded()
+    await historyPage.logout()
+
+    await homePage.clickAppointmentButton()
+    await loginPage.login(process.env.DEMO_USER, process.env.DEMO_PASS)
+
+    await appointmentPage.goToHistoryPage()
+
+    await historyPage.validateHistoryPage()
+    await historyPage.validateAppointentIsRecorded()
+});
+
+
+
+
 
 
 
@@ -272,13 +360,18 @@ test.beforeEach(async () => {
 //screenshot for failed test cases
 //visual comparison
 test.afterEach(async ({ page }, testInfo) => {
-    if (testInfo.status !== testInfo.expectedStatus) {
-        console.log("Test failed, perform screenshot")
-        const image = await page.screenshot({path: 'failed screenshot.png', fullPage:true})
-        testInfo.attach('failed test', {
-            body: image,
-            contentType: 'image/png',
-        })
+    // if (testInfo.status !== testInfo.expectedStatus) {
+    //     console.log("Test failed, perform screenshot")
+    //     const image = await page.screenshot({path: 'failed screenshot.png', fullPage:true})
+    //     testInfo.attach('failed test', {
+    //         body: image,
+    //         contentType: 'image/png',
+    //     })
+    // }
+
+    if (!page.isClosed() && testInfo.status !== testInfo.expectedStatus) {
+        console.log("Test failed, perform screenshot");
+        await page.screenshot({ path: 'failed-screenshot.png', fullPage: true });
     }
 });
 
