@@ -49,6 +49,7 @@ This project includes both manual and automated test cases:
 ## Related Projects 🔗
 This repository is part of a collection of projects designed to showcase my QA engineering skills such as:
 
+- [CURA Healthcare Selenium Automation](https://github.com/vidhapratiwi/cura-selenium-automation.git): Automated tests for CURA Healthcare, focusing on appointment booking functionality.
 - [SauceDemo Selenium Automation](https://github.com/vidhapratiwi/saucedemo-selenium-automation.git): Automated tests for SauceDemo using the Selenium framework.
 - [SauceDemo Playwright Automation](https://github.com/vidhapratiwi/saucedemo-playwright-automation.git): Automated tests for SauceDemo using the Playwright framework.
 
